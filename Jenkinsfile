@@ -7,5 +7,12 @@ pipeline {
                 sh 'npm --version'
             }
         }
+
+        stage('start'){
+            steps {
+                sh 'node main.js'
+            }
+        }
+
     }
 }
