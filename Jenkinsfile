@@ -10,7 +10,7 @@ pipeline {
 
         stage('start'){
             steps {
-                sh 'node main.js'
+                sh 'npm start'
             }
         }
 
